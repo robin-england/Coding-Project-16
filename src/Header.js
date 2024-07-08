@@ -1,4 +1,4 @@
-export default function Header() {
+export default function Header() {  // Creates header
     return (
         <div className="header">
             <h1>Meet your new Team!</h1>
@@ -7,7 +7,7 @@ export default function Header() {
     )
 }
 
-export function Footer() {
+export function Footer() {  // creates Footer
     return (
         <div className="footer">
             <hr />

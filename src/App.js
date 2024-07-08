@@ -1,11 +1,11 @@
 import React from 'react'
 import Gallery from "./Gallery.js";
 import Header from "./Header.js";
-import { Footer } from "./Header.js";
-import './App.css';
+import { Footer } from "./Header.js"; // brackets because not default function
+import './App.css'; // imports style
 
 
-const teamMembers = [
+const teamMembers = [ // Defines team members. Can update as team members change
 
   {
     id: 1,
@@ -29,7 +29,7 @@ const teamMembers = [
   },
 ]
 
-function App() {
+function App() {  // runs header, footer and gallery for defined team members
   return (
     <>
       <Header />
@@ -41,4 +41,4 @@ function App() {
   )
 }
 
-export default App
+export default App  // Exports to show App function

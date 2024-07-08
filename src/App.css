@@ -1,4 +1,4 @@
-.profile {
+.profile { /* Styles each individual profile */
   margin: 5px;
   padding: 5px;
   border: solid, darkblue, 3px;
@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.header, .footer {
+.header, .footer {   /* Styles both header and footer */
   font-family: serif;
   margin: 5px;
   padding: 5px;
