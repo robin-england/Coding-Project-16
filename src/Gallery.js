@@ -1,16 +1,16 @@
-import { Profile } from "Profile";
+import Profile from "./Profile.js";
 
-export default function Gallery({teamMembers}){
+export default function Gallery({ teamMembers }) {
     return (
-      <div className="gallery">
-        {teamMembers.map(teamMember =>(
-          <Profile
-            key={teamMember.id}
-            name={teamMember.name}
-            position={teamMember.role}
-            photoURL={teamMember.photo}
-        />
-      ))}    
-      </div>
+        <div className="gallery">
+            {teamMembers.map(teamMember => (
+                <Profile
+                    key={teamMember.id}
+                    name={teamMember.name}
+                    role={teamMember.role}
+                    photoURL={teamMember.photoURL}
+                />
+            ))}
+        </div>
     )
 }
